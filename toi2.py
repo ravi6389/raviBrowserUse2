@@ -1,6 +1,6 @@
 import asyncio
 import re
-import streamlit as st
+
 import pandas as pd
 import datetime
 from browser_use import Agent
@@ -8,6 +8,12 @@ from langchain_community.chat_models import AzureChatOpenAI
 
 import os
 import sys
+
+
+import setup_playwright
+setup_playwright.install_playwright()
+
+import streamlit as st
 
 # sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 # Windows-specific fix for asyncio
