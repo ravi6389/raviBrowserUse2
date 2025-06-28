@@ -11,3 +11,4 @@ langchain_openai
 playwright
 screeninfo
 langchain_google_genai
+langchain_community
