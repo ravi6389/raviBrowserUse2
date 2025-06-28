@@ -1,0 +1,13 @@
+langchain
+langchain_groq
+streamlit
+dotenv
+openai
+patchright
+pydantic
+psutil
+posthog
+langchain_openai
+playwright
+screeninfo
+langchain_google_genai
