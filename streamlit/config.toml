@@ -1,0 +1,7 @@
+[server]
+headless = true
+enableCORS = false
+
+[general]
+# Set your custom startup script
+prelaunchScript = "setup.sh"
