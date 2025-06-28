@@ -102,7 +102,7 @@ class BrowserConfig(BaseModel):
 	)
 	extra_browser_args: list[str] = Field(default_factory=list)
 
-	headless: bool = False
+	headless: bool = True
 	disable_security: bool = False  # disable_security=True is dangerous as any malicious URL visited could embed an iframe for the user's bank, and use their cookies to steal money
 	deterministic_rendering: bool = False
 	keep_alive: bool = Field(default=False, alias='_force_keep_browser_alive')  # used to be called _force_keep_browser_alive
